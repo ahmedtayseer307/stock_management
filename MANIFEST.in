@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include stok_managment *.css
+recursive-include stok_managment *.csv
+recursive-include stok_managment *.html
+recursive-include stok_managment *.ico
+recursive-include stok_managment *.js
+recursive-include stok_managment *.json
+recursive-include stok_managment *.md
+recursive-include stok_managment *.png
+recursive-include stok_managment *.py
+recursive-include stok_managment *.svg
+recursive-include stok_managment *.txt
+recursive-exclude stok_managment *.pyc
